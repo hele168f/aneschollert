@@ -76,6 +76,11 @@ h1 {
     height: 100%;
     width: 100%;
  }
+
+.nv-page-title-wrap .nv-page-title {
+    display: none;
+}
+
 .wp-block-image {
     margin-right: 50px;
 }
@@ -87,6 +92,10 @@ h1 {
 .is-layout-flow h1{
     margin-left: 65px;
     font-size: 3.5rem;  
+}
+.is-layout-flow p{
+    margin-left: 165px;
+    margin-top: -20px;
 }
 
 
