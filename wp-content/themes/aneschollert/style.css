@@ -94,6 +94,10 @@ h1 {
 
 
 /* Forhandler CSS */
+.has-text-align-center h4{
+    background-color: white;
+    margin-top: -40px;
+}
 
 
 
