@@ -94,6 +94,11 @@ h1 {
 
 
 /* Forhandler CSS */
+
+.wp-block wp-block-post-title block-editor-block-list__block editor-post-title editor-post-title__input rich-text{
+    display: none;
+}
+
 .wp-block-column h4{
     background-color: white;
     margin-top: -100px;
