@@ -75,10 +75,19 @@ h1 {
     margin-right: -100px;
     height: 100%;
     width: 100%;
+ }
+.wp-block-image {
+    margin-right: 50px;
+}
+.is-layout-flow h2{
+    margin-left: 108px;
+    font-size: 3.5rem;
+    margin-top: -38px;
+}
+.is-layout-flow h1{
+    margin-left: 65px;
+    font-size: 3.5rem;  
 }
 
-h2{
-    margin-left: 50px;
-}
 
 
