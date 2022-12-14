@@ -94,7 +94,7 @@ h1 {
 
 
 /* Forhandler CSS */
-.editor-styles-wrapper h4, .editor-styles-wrapper h4{
+.wp-block-column h4{
     background-color: white;
     margin-top: -100px;
 }
