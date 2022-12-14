@@ -1,5 +1,5 @@
 /* 
-Theme Name:    Ane Schollert 
+Theme Name:    Ane Schollert
 Template:    neve
 Version:      1.0.2
 Description:  neve Child Theme
@@ -7,8 +7,13 @@ Author:      Helena Nielsen, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og M
 */
 
 /* Generel CSS, herunder header og footer */
+h1 {
+    margin: 100px;
+}
 
-
+.entry-header-TEST {
+    margin:20px;
+}
 
 
 
@@ -69,6 +74,15 @@ Author:      Helena Nielsen, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og M
 .is-layout-flow wp-block-column h1{
     font-size: 3rem;
 }
-.is-layout-flow wp-block-column{
+.is-layout-flow .wp-block-column{
     margin-block-start: 100px;
+}
+
+
+.is-layout-flow .wp-block-column {
+    margin: 100px;
+}
+
+.wp-block-image {
+    margin: 20px; 
 }
