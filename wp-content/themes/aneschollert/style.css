@@ -99,9 +99,12 @@ h1 {
 .wp-block-column h4{
     background-color: white;
     margin-top: -100px;
+}
+.wp-block-column a{
     text-decoration: none;
     color: black;
 }
+
 .wp-block-image img{
     margin: 25px;
 }
