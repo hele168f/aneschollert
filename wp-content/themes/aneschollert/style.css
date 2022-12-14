@@ -73,9 +73,9 @@ h1 {
 
 
 /* Forhandler CSS */
-.has-text-align-center h4{
+.editor-styles-wrapper h4, .editor-styles-wrapper h4{
     background-color: white;
-    margin-top: -40px;
+    margin-top: -100px;
 }
 
 
