@@ -53,6 +53,14 @@ h1 {
 
 /* Keramik CSS */
 
+#holder {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 50px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 
 
@@ -75,6 +83,11 @@ h1 {
 
 
 /* Om mig CSS */
+.wp-block-image img{
+    margin-right: -100px;
+    height: 100%;
+    width: 100%;
+ }
 
 .nv-page-title-wrap .nv-page-title {
     display: none;
@@ -83,12 +96,12 @@ h1 {
 .wp-block-image {
     margin-right: 50px;
 }
-.is-layout-flow wp-block-column h2{
+.is-layout-flow h2{
     margin-left: 108px;
     font-size: 3.5rem;
     margin-top: -38px;
 }
-.is-layout-flow wp-block-column h1{
+.is-layout-flow h1{
     margin-left: 65px;
     font-size: 3.5rem;  
 }
