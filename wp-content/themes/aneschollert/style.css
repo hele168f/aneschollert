@@ -107,6 +107,8 @@ h1 {
 
 .wp-block-image img{
     margin: 25px;
+    width: 70%;
+    height: 70%;
 }
 .wp-block-column h4:hover{
 text-decoration: underline;
