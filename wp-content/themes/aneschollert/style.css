@@ -94,7 +94,7 @@ h1 {
 
 
 /* Forhandler CSS */
-.wp-block-column h4{
+.wp-block-column h4 {
     background-color: white;
     margin-top: -100px;
 }
@@ -116,6 +116,8 @@ h1 {
 
 .wp-block-image {
     margin-right: 50px;
+    z-index: -1;
+    position: sticky;
 }
 .is-layout-flow h2{
     margin-left: 108px;
