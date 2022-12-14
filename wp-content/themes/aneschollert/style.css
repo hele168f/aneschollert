@@ -71,18 +71,12 @@ h1 {
 
 
 /* Om mig CSS */
-.is-layout-flow wp-block-column h1{
-    font-size: 3rem;
+.wp-block-image size-full{
+    margin-right: -100px;
 }
-.is-layout-flow .wp-block-column{
-    margin-block-start: 100px;
+
+h2{
+    margin-left: 50px;
 }
 
 
-.is-layout-flow .wp-block-column {
-    margin: 100px;
-}
-
-.wp-block-image {
-    margin: 20px; 
-}
