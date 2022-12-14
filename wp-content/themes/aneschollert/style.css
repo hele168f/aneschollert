@@ -103,6 +103,10 @@ h1 {
 .wp-block-image img{
     margin: 25px;
 }
+.wp-block-column h4:hover{
+text-decoration: underline;
+cursor: pointer;
+}
 
 
 
