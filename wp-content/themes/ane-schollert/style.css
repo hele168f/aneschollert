@@ -1,7 +1,68 @@
 /* 
 Theme Name:    Ane Schollert 
 Template:    neve
-Version:      1.0.0
-Description:  Neve Child Theme
-Author:      Helena Nielsne, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og Monique Sørensen
+Version:      1.0.2
+Description:  neve Child Theme
+Author:      Helena Nielsen, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og Monique Sørensen
 */
+
+/* Generel CSS, herunder header og footer */
+
+
+
+
+
+
+
+
+
+
+
+/* Forside CSS */
+
+.alignwide{
+    padding-bottom: 1.75em;
+    margin-bottom: 0px;
+}
+
+.wp-block-button__link {
+    color: #000000;
+    background-color: #d6bc8c;  
+    }
+
+.wp-block-button__link:hover {
+    color: #d6bc8c;
+    background-color: #000000;  
+        }
+.wp-block-button {
+    margin: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+
+
+/* Keramik CSS */
+
+
+
+
+
+/* Inspiration CSS */
+
+
+
+
+
+
+/* Forhandler CSS */
+
+
+
+
+
+/* Om mig CSS */
