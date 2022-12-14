@@ -66,3 +66,6 @@ Author:      Helena Nielsen, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og M
 
 
 /* Om mig CSS */
+.is-layout-flow wp-block-column h1{
+    font-size: 3rem;
+}
