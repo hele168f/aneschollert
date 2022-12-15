@@ -25,7 +25,9 @@ get_header();
 
 	</main><!-- #main -->
 <script>
+  /*henter al data fra backend*/
 	const siteUrl = "https://helenaadelaide.dk/kea/10_eksamen/aneschollert/wp-json/wp/v2/keramik/?per_page=100";
+  /*henter kategoriener fra backend*/
   const catUrl = "https://helenaadelaide.dk/kea/10_eksamen/aneschollert/wp-json/wp/v2/categories";
 	let keramik =[];
   let categories =[];
@@ -33,6 +35,7 @@ get_header();
 	const keramikTemp = document.querySelector("#holder");
 	const keramikListe = document.querySelector("#template");
 	getJson();
+  
 	async function getJson(){
 		const response = await fetch(siteUrl);
     const catdata = await fetch(catUrl);
