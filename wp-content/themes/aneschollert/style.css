@@ -118,7 +118,6 @@ color: black;
 
 
 .wp-block-image {
-    margin-right: 50px;
     z-index: -1;
     position: sticky;
 }
