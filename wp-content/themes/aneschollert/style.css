@@ -48,13 +48,52 @@ h1 {
     text-align: center;
     padding-bottom: 60px;
 }
-.wp-block-button .aligncenter{
 
- }
 .wp-block-button__link{
     margin-top: -50px;
 }
 
+.wp-block-column a {
+    background-color: #d6bc8c;
+    color: #000000;
+    box-shadow: none;
+    text-decoration: none;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px);
+    font-size: 1.125em;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 0;
+}
+.wp-block-column a:hover {
+    opacity: 0.6 !important;
+  }
+.wp-block-button__link {
+    margin-right: 0px !important;
+    margin-bottom: 50px;
+    background-color: #d6bc8c !important; 
+    color: #000000 !important;
+    box-shadow: none !important;
+    text-decoration: none !important;
+    padding: calc(0.667em + 2px) calc(1.333em + 2px) !important;
+    font-size: 1.125em !important;
+    cursor: pointer !important;
+    margin-right: 30px !important;
+    border-radius: 0 !important;
+}
+
+.wp-block-button__link:hover {
+    opacity: 0.6 !important;
+}
+
+.katalog_teaser{
+    background-color: #f0ede6;
+    padding: 70px;
+    text-align: center;
+}
+
+#menu-item-1240 a {
+    display: none;
+}
 
 
 
@@ -71,7 +110,12 @@ h1 {
 }
 
 #holder img{
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px black;
+}
+
+.produkt_mål {
+    font-weight: bold;
+    margin-bottom: -5px;
 }
 
 #filtrering {
@@ -93,12 +137,13 @@ h1 {
 #filtrering button:hover {
     opacity: 0.6;
   }
+
+#filtrering button:active {
+    opacity: 0.6;
+  }
+
+
 /* CSS til knapperne på keramik siden */
-
-#filtrering 1{
-    display:none;
-}
-
 
 
 
@@ -125,27 +170,6 @@ color: black;
 }
 
 
-.wp-block-image {
-    z-index: -1;
-    position: sticky;
-}
-.is-layout-flow h2{
-    margin-left: 108px;
-    font-size: 3.5rem;
-    margin-top: -38px;
-}
-.is-layout-flow h1{
-    margin-left: 65px;
-    font-size: 3.5rem;  
-}
-.is-layout-flow p{
-    margin-left: 165px;
-    margin-top: -20px;
-    font-size: 18px;
-}
-.wp-block-image img {
- margin: 25px;
-}
 
 
 /* Om mig CSS */
@@ -156,6 +180,30 @@ color: black;
 .billede_ane img{
     margin: 25px;
 }
+
+.om_mig_billede {
+    text-align: center;
+}
+
+.wp-block-image {
+    z-index: -1;
+    position: sticky;
+}
+.h2_om_mig h2{
+    margin-left: 108px;
+    font-size: 3.5rem;
+    margin-top: -38px;
+}
+.h1_om_mig h1{
+    margin-left: 65px;
+    font-size: 3.5rem;  
+}
+.is-layout-flow p{
+    margin-left: 165px;
+    margin-top: -20px;
+    font-size: 18px;
+}
+
 
 
 
