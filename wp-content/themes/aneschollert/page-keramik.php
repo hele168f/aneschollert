@@ -49,7 +49,7 @@ get_header();
   function opretknapper() {
 
     categories.forEach(cat =>{
-        document.querySelector("#filtrering").innerHTML += `<button class="filter" data-keramik="${cat.id}">${cat.name}</button>`
+        document.querySelector("#filtrering").innerHTML += `<button class="filter" data-keramik="${cat.id }">${cat.name}</button>`
     })
 
     addEventListenersToButtons();
