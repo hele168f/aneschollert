@@ -91,10 +91,7 @@ h1 {
 
 
 
-
-
 /* Forhandler CSS */
-
 
 .wp-block-column h4{
     background-color: white;
@@ -106,23 +103,12 @@ h1 {
     color: black;
 }
 
-.wp-block-image img{
+.billede_ane img{
     margin: 25px;
 }
 .wp-block-column h4:hover{
 text-decoration: underline;
 cursor: pointer;
-}
-
-
-
-
-
-/* Om mig CSS */
-
-
-.nv-page-title-wrap .nv-page-title {
-    display: none;
 }
 
 .wp-block-image {
@@ -142,6 +128,13 @@ cursor: pointer;
 .is-layout-flow p{
     margin-left: 165px;
     margin-top: -20px;
+}
+
+
+/* Om mig CSS */
+
+.nv-page-title-wrap .nv-page-title {
+    display: none;
 }
 
 
