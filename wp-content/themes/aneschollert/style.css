@@ -42,8 +42,12 @@ h1 {
 .wp-block-button {
     margin: 0 0 50px 0;
 }
-
-
+#block-e9ff3502-c54f-444d-bcb9-807c186eb011{
+    margin-top: -110px;
+}
+#block-bffd7b5a-fd17-4934-ad18-9ebb6d871af0{
+    margin-top: -50px;
+}
 
 
 
@@ -109,6 +113,7 @@ h1 {
 .wp-block-column h4:hover{
 text-decoration: underline;
 cursor: pointer;
+color: black;
 }
 
 .wp-block-image {
