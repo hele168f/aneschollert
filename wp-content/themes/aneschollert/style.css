@@ -89,11 +89,15 @@ h1 {
 #filtrering button:hover {
     opacity: 0.6;
   }
+/* CSS til knapperne på keramik siden */
+
+#filtrering 1{
+    display:none;
+}
 
 
 
 
-/* Inspiration CSS */
 
 
 
