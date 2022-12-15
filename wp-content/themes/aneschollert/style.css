@@ -110,7 +110,7 @@ h1 {
     color: black;
 }
 
-.wp-block-column h4:hover{
+.wp-block-column a:hover{
 text-decoration: underline;
 cursor: pointer;
 color: black;
@@ -133,6 +133,7 @@ color: black;
 .is-layout-flow p{
     margin-left: 165px;
     margin-top: -20px;
+    font-size: 18px;
 }
 .wp-block-image img {
  margin: 25px;
