@@ -44,7 +44,13 @@ h1 {
 }
 .overskrift{
     margin-top: -110px;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 60px;
 }
+.wp-block-button .aligncenter{
+
+ }
 .wp-block-button__link{
     margin-top: -50px;
 }
