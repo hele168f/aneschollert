@@ -55,9 +55,6 @@ h1 {
 
 
 
-
-
-
 /* Keramik CSS */
 
 #holder {
@@ -110,14 +107,12 @@ h1 {
     color: black;
 }
 
-.billede_ane img{
-    margin: 25px;
-}
 .wp-block-column h4:hover{
 text-decoration: underline;
 cursor: pointer;
 color: black;
 }
+
 
 .wp-block-image {
     margin-right: 50px;
@@ -137,12 +132,18 @@ color: black;
     margin-left: 165px;
     margin-top: -20px;
 }
+.wp-block-image img {
+ margin: 25px;
+}
 
 
 /* Om mig CSS */
 
 .nv-page-title-wrap .nv-page-title {
     display: none;
+}
+.billede_ane img{
+    margin: 25px;
 }
 
 
