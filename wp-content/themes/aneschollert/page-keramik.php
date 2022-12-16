@@ -12,14 +12,13 @@ get_header();
 	<main id="primary" class="site-main-merch">
     
   <h2>Keramik</h2>
-  <div id="filtrering"><button data-keramik="alle">Ryd filter</button></div>
+  <div id="filtrering"><button data-keramik="alle">Alle</button></div>
   <div id="holder"></div>
     <template>
       <article>  
           <img src="" alt="">   
-          <p class="produkt_pris"> </p>
-          <p class="produkt_farve"> </p>
           <p class="produkt_mål"> </p>
+          <p class="produkt_pris"> </p>
       </article>
     </template>
 
@@ -81,7 +80,6 @@ get_header();
           const klon = skabelon.cloneNode(true).content;
           klon.querySelector("img").src = keramik.billede.guid;
           klon.querySelector(".produkt_pris").textContent = keramik.pris;
-          klon.querySelector(".produkt_farve").textContent = keramik.farve;
           klon.querySelector(".produkt_mål").textContent = keramik.mal;
           klon.querySelector("article").addEventListener("click", () => {location.href = keramik.link; })
           holder.appendChild(klon);
