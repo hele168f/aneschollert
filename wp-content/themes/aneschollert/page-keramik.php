@@ -35,7 +35,7 @@ get_header();
 	const keramikTemp = document.querySelector("#holder");
 	const keramikListe = document.querySelector("#template");
 	getJson();
-  
+
 	async function getJson(){
 		const response = await fetch(siteUrl);
     const catdata = await fetch(catUrl);
