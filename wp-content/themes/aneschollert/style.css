@@ -17,56 +17,21 @@ h1 {
 
         /* Footer CSS */
 
-        footer {
-            background: #d6bc8c;
+        .grid-footer {
+            background: #ffffff;
+            border-top: solid 1.5px #000000;
             text-align: center;
             display: grid;
-            grid-column: span 2;
-            height: 100px;
+            grid-template-columns: 1fr 1fr 1fr;
+            height: 110px;
           }
           
-          .flex-row {
-            display: flex;
-            justify-content: space-evenly;
-          }
-          
-          .footer-navn {
-            display: flex;
-            width: 75px;
-            height: 30px;
-            transition: transform 500ms;
-            margin-top: 20px;
-            margin-left: 30px;
-          }
-          .footer-insta {
-            display: flex;
-            width: 30px;
-            height: 30px;
-            transition: transform 500ms;
-            margin-top: 20px;
-          }
-          .footer-insta:hover {
-            transform: scale(1.1);
-          }
-
-          .footer-insta img {
-            color: #000000 !important;
-          }
-          
-          .footer-telefon {
-            display: flex;
-            width: 115px;
-            height: 30px;
-            transition: transform 500ms;
-            margin-top: 20px;
-          }
-          .footer-telefon a {
-            color: #000000 !important;
-          }
-
-
-
-
+        .kontakt-info p {
+            margin: 10px;
+        }
+        .åbningstider-info p {
+            margin: 10px;
+        }
 
 
 
@@ -266,6 +231,14 @@ color: black;
     margin-left: 165px;
     margin-top: -20px;
     font-size: 18px;
+}
+
+/* .h2_om_mig_seo h2 {
+    margin-left: 165px;
+} */
+
+.test080101 h2 {
+    margin-left: 165px;
 }
 
 

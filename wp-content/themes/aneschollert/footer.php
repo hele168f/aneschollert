@@ -18,14 +18,24 @@ do_action( 'neve_before_primary_end' ); ?>
 </main><!--/.neve-main-->
 
 <footer>
-      <div class="flex-row">
-          <div class="footer-navn"><h5>as@aneschollert.dk</h5></div>
-          <div class="footer-insta">
-            <a href="https://www.instagram.com/aschollert/"><img src="Pictures/instagram.png" alt="instagram icon"></a></div>
+      <div class="grid-footer">
+          <div class="kontakt-info">
+            <p> Kontakt <p>
+            <p>as@aneschollert.dk</p>
+            <p>Tlf. 27 64 11 91</p>
+            
+          </div>
+          <div class="some-info">
+            <a href="https://www.instagram.com/aschollert/"><img src="Pictures/instagram.png" alt="instagram icon"></a>
+          </div>
         
-          <div class="footer-telefon"><a href="tel:+4527641191"><h5>Tlf. 27 64 11 91</h5></a></div>
+          <div class="åbningstider-info">
+            <p>Åbningstider</p>
+            <p>Mandag-Fredag 10-19</p>
+        </div>
       </div>
     </footer>
+ 
 
 </div><!--/.wrapper-->
 <?php
