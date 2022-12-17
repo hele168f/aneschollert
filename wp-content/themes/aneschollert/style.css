@@ -15,6 +15,7 @@ h1 {
     margin:20px;
 }
 
+
         /* Footer CSS */
 
         .grid-footer {
@@ -32,8 +33,9 @@ h1 {
         .åbningstider-info p {
             margin: 10px;
         }
-
-
+        #nv-primary-navigation-sidebar li:nth-child(1) {
+            display: none;
+        }
 
 /* Forside CSS */
 
