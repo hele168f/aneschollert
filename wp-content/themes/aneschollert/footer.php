@@ -26,7 +26,7 @@ do_action( 'neve_before_primary_end' ); ?>
             
           </div>
           <div class="some-info">
-            <a href="https://www.instagram.com/aschollert/"><img src="Pictures/instagram.png" alt="instagram icon"></a>
+            <a href="https://www.instagram.com/aschollert/"><img src="<?php echo get_stylesheet_directory_uri() ?>/pictures/instagram.png" alt="instagram icon"></a>
           </div>
         
           <div class="åbningstider-info">

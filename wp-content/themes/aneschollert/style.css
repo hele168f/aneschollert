@@ -172,7 +172,10 @@ h1 {
     opacity: 0.6;
   }
 
-
+.site-main-merch h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 /* CSS til knapperne på keramik siden */
 
 
