@@ -37,6 +37,10 @@ h1 {
             display: none;
         }
 
+        .some-info img {
+            margin-top: 20px;
+        }
+
 /* Forside CSS */
 
 .alignwide{
