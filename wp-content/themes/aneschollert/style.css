@@ -8,70 +8,69 @@ Author:      Helena Nielsen, Ellen Hein, Caroline Thomsen, Emilie Hundewadt og M
 
 /* Generel CSS, herunder header og footer */
 h1 {
-    margin: 100px;
+  margin: 100px;
 }
 
 .entry-header-TEST {
-    margin:20px;
+  margin: 20px;
 }
 
+/* Footer CSS */
 
-        /* Footer CSS */
+.grid-footer {
+  background: #ffffff;
+  border-top: solid 1.5px #000000;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 110px;
+}
 
-        .grid-footer {
-            background: #ffffff;
-            border-top: solid 1.5px #000000;
-            text-align: center;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            height: 110px;
-          }
-          
-        .kontakt-info p {
-            margin: 10px;
-        }
-        .åbningstider-info p {
-            margin: 10px;
-        }
-        #nv-primary-navigation-sidebar li:nth-child(1) {
-            display: none;
-        }
+.kontakt-info p {
+  margin: 10px;
+}
+.åbningstider-info p {
+  margin: 10px;
+}
+#nv-primary-navigation-sidebar li:nth-child(1) {
+  display: none;
+}
 
-        .some-info img {
-            margin-top: 20px;
-        }
+.some-info img {
+  margin-top: 20px;
+}
 
 /* Forside CSS */
 
-.alignwide{
-    padding-bottom: 1.75em;
-    margin-bottom: 0px;
+.alignwide {
+  padding-bottom: 1.75em;
+  margin-bottom: 0px;
 }
 
 .wp-block-button__link {
-    color: #000000;
-    background-color: #d6bc8c;  
-    }
+  color: #000000;
+  background-color: #d6bc8c;
+}
 
 .wp-block-button__link:hover {
-    color: #d6bc8c;
-    background-color: #000000;  
-        }
-.wp-block-button {
-    margin: 0 0 50px 0;
+  color: #d6bc8c;
+  background-color: #000000;
 }
-.overskrift{
-    margin-top: -110px;
-    background-color: white;
-    text-align: center;
-    padding-bottom: 10px;
-    margin-right: 200px;
-    margin-left: 200px;
-    padding-top: 30px;
+.wp-block-button {
+  margin: 0 0 50px 0;
+}
+.overskrift {
+  margin-top: -110px;
+  background-color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-top: 30px;
 }
 
-.wp-block-button__link{
-    margin-top: -50px;
+.wp-block-button__link {
+  margin-top: -50px;
 }
 
 /* .wp-block-column a {
@@ -89,157 +88,143 @@ h1 {
     opacity: 0.6 !important;
   } */
 .wp-block-button__link {
-    margin-right: 0px !important;
-    margin-bottom: 100px;
-    margin-top: 20px;
-    background-color: #d6bc8c !important; 
-    color: #000000 !important;
-    box-shadow: none !important;
-    text-decoration: none !important;
-    padding: calc(0.667em + 2px) calc(1.333em + 2px) !important;
-    font-size: 1.125em !important;
-    cursor: pointer !important;
-    border-radius: 0 !important;
+  margin-right: 0px !important;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  background-color: #d6bc8c !important;
+  color: #000000 !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px) !important;
+  font-size: 1.125em !important;
+  cursor: pointer !important;
+  border-radius: 0 !important;
 }
 
 .wp-block-button__link:hover {
-    opacity: 0.6 !important;
+  opacity: 0.6 !important;
 }
 
-.katalog_teaser{
-    background-color: #f0ede6;
-    padding: 70px;
-    text-align: center;
+.katalog_teaser {
+  background-color: #f0ede6;
+  padding: 100px;
+  text-align: center;
 }
 
 #menu-item-1240 a {
-    display: none;
+  display: none;
 }
-
 
 .forside_felt_1 {
-    text-align: center;
-    margin-top: 200px;
+  text-align: center;
+  margin-top: 200px;
 }
-
 
 .wp-block-columns {
-    margin-bottom: 0px !important;
+  margin-bottom: 0px !important;
 }
-
-
-
 
 /* Keramik CSS */
 
 #holder {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    padding: 50px;
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
-    background-color: #f0ede6;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding: 50px;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  background-color: #f0ede6;
 }
 
-#holder img{
-    border-bottom: solid 2px black;
+#holder img {
+  border-bottom: solid 2px black;
 }
 
 .produkt_mål {
-    font-weight: bold;
-    margin-bottom: -5px;
+  font-weight: bold;
+  margin-bottom: -5px;
 }
 
 #filtrering {
-    text-align: center;
-    margin-bottom: 30px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 #filtrering button {
-    background-color: #d6bc8c;
-    color: #000000;
-    box-shadow: none;
-    text-decoration: none;
-    padding: calc(0.667em + 2px) calc(1.333em + 2px);
-    font-size: 1.125em;
-    cursor: pointer;
-    margin-right: 30px;
-    border-radius: 0;
+  background-color: #d6bc8c;
+  color: #000000;
+  box-shadow: none;
+  text-decoration: none;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px);
+  font-size: 1.125em;
+  cursor: pointer;
+  margin-right: 30px;
+  border-radius: 0;
 }
 
 #filtrering button:hover {
-    opacity: 0.6;
-  }
+  opacity: 0.6;
+}
 
 #filtrering button:active {
-    opacity: 0.6;
-  }
+  opacity: 0.6;
+}
 
 .site-main-merch h2 {
-    margin-top: 20px;
-    margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 /* CSS til knapperne på keramik siden */
 
-
-
-
-
-
-
 /* Forhandler CSS */
 
-.wp-block-column h4{
-    background-color: white;
-    margin-top: -100px;
-    margin-inline: 25px;
+.wp-block-column h4 {
+  background-color: white;
+  margin-top: -100px;
+  margin-inline: 25px;
 }
-.wp-block-column a{
-    text-decoration: none;
-    color: black;
-}
-
-.wp-block-column a:hover{
-text-decoration: underline;
-cursor: pointer;
-color: black;
+.wp-block-column a {
+  text-decoration: none;
+  color: black;
 }
 
-
-
+.wp-block-column a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
 
 /* Om mig CSS */
 
 .nv-page-title-wrap .nv-page-title {
-    display: none;
+  display: none;
 }
-.billede_ane img{
-    margin: 25px;
+.billede_ane img {
+  margin: 25px;
 }
 
 .om_mig_billede {
-    text-align: center;
+  text-align: center;
 }
 
 .wp-block-image {
-    z-index: -1;
-    position: sticky;
-    margin-bottom: 40px;;
+  z-index: -1;
+  position: sticky;
+  margin-bottom: 40px;
 }
-.h2_om_mig h2{
-    margin-left: 108px;
-    font-size: 3.5rem;
-    margin-top: -38px;
+.h2_om_mig h2 {
+  margin-left: 108px;
+  font-size: 3.5rem;
+  margin-top: -38px;
 }
-.h1_om_mig h1{
-    margin-left: 65px;
-    font-size: 3.5rem;  
+.h1_om_mig h1 {
+  margin-left: 65px;
+  font-size: 3.5rem;
 }
-.is-layout-flow p{
-    margin-left: 165px;
-    margin-top: -20px;
-    font-size: 18px;
+.is-layout-flow p {
+  margin-left: 165px;
+  margin-top: -20px;
+  font-size: 18px;
 }
 
 /* .h2_om_mig_seo h2 {
@@ -247,13 +232,12 @@ color: black;
 } */
 
 .test080101 h2 {
-    margin-left: 165px;
+  margin-left: 165px;
 }
 
 .h2_om_mig {
-    margin-left: 80px;
+  margin-left: 80px;
 }
-
-
-
-
+.has-text-align-center {
+  padding-top: 100px;
+}
